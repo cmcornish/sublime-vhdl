@@ -9,6 +9,7 @@ entity ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
 end ${1:${TM_FILENAME/(.*?)(\..+)/$1/}};
 
 architecture ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}_arc of ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
+
 begin
 
 end ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}_arc;

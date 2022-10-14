@@ -2,7 +2,7 @@
   <tabTrigger>for</tabTrigger>
   <scope>source.vhdl</scope>
   <content><![CDATA[
-${1:identifier} : for ${2:i} in ${3:0} to ${4:10} loop
+for ${1:i} in ${2:0} to ${3:10} loop
 	$0
 end loop;
 ]]></content>
